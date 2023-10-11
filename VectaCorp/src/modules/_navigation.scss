@@ -8,9 +8,17 @@ nav {
             display:inline;font-size:0.8em;margin-right:10px;
 
             a{
-                color:#E65C43;text-decoration:none;letter-spacing:-0.01em;
-                a:hover {color:#FFF;}
+                color:$red;text-decoration:none;letter-spacing:-0.01em;
+                a:hover {color:$white;}
             }
         }
     }
 }
+
+figure {
+        width:400px;
+        height:190px;
+        background:$logo-img no-repeat 0 50px;
+        float:left;
+        display:block;
+        margin:0;}
