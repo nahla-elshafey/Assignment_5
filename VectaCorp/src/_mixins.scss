@@ -1,0 +1,39 @@
+@mixin logo-box($width: 400px, $height: 190px, $background: url('../images/logo.png') no-repeat 0 50px, $float: left) {
+    width: $width;
+    height: $height;
+    background: $background;
+    float: $float;
+    display: block;
+    margin: 0;
+ }
+
+ @mixin navigation-box($width: 540px, $height: 190px, $float: left, $text-align: right) {
+    width: $width;
+    height: $height;
+    float: $float;
+    text-align: $text-align;
+ 
+    ul {
+       list-style-type: none;
+       margin-top: 95px;
+ 
+       li {
+          display: inline;
+          font-size: 0.8em;
+          margin-right: 10px;
+ 
+          a {
+             color: #E65C43;
+             text-decoration: none;
+             letter-spacing: -0.01em;
+ 
+             &:hover {
+                color: #FFF;
+             }
+          }
+       }
+    }
+ }
+
+
+ 
